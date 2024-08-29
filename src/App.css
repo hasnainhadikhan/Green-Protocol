@@ -1,0 +1,510 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+#nav {
+  background-color: rgb(22, 114, 22);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+
+#navh1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 27px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.nav-item {
+  margin-top: -45px;
+}
+
+#navAnc {
+  color: white;
+  font-size: 15px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #nav {
+      height: auto;
+      padding: 10px 0;
+  }
+
+  #navh1 {
+      margin-left: 10px;
+      margin-top: 0;
+      font-size: 22px;
+      text-align: center;
+  }
+
+  .nav-item {
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .nav {
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  #navAnc {
+      font-size: 14px;
+      margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #navh1 {
+      font-size: 20px;
+  }
+
+  #navAnc {
+      font-size: 12px;
+  }
+
+  .nav-item {
+      margin-top: 5px;
+  }
+}
+
+#greenback {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(65, 209, 65);
+}
+
+.backh1 {
+  text-align: center;
+  color: white;
+  font-size: 54px;
+  font-family: "Mochiy Pop One", sans-serif;
+  position: relative;
+  top: 300px;
+}
+
+#centerback {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+#imggreen {
+  margin-top: 350px;
+  width: 160px;
+  height: 160px;
+}
+
+
+
+.headingMain {
+  font-size: 52px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  margin-left: 5%;
+  color: rgb(29, 119, 29);
+}
+
+hr {
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 6px solid rgb(19, 255, 19);
+  border-color: rgb(0, 92, 0);
+}
+
+#paraText {
+  margin-top: 80px;
+  margin-left: 5%;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sideImg {
+  position: relative;
+  top: -330px;
+  right: 130px;
+  width: 250px;
+  height: 350px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .headingMain {
+      font-size: 32px;
+      margin-left: 3%;
+  }
+
+  #paraText {
+      margin-top: 40px;
+      margin-left: 3%;
+      font-size: 18px;
+  }
+
+  #sideImg {
+      position: static;
+      margin: 10px 85px;
+      display: block;
+      width: 60%;
+      height: 400px;
+  }
+
+  hr {
+      width: 95%;
+      margin-left: 2.5%;
+      border-bottom: 4px solid rgb(19, 255, 19);
+  }
+}
+
+@media (max-width: 480px) {
+  .headingMain {
+      font-size: 28px;
+  }
+
+  #paraText {
+      font-size: 16px;
+  }
+
+  hr {
+      border-bottom: 3px solid rgb(19, 255, 19);
+  }
+}
+
+.headmain {
+  font-size: 52px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  margin-left: 8.5%;
+  margin-top: 220px;
+  color: rgb(29, 119, 29);
+}
+
+.hrP {
+  width: 83%;
+  margin-left: 8.5%;
+  border-bottom: 6px solid rgb(19, 255, 19);
+  border-color: rgb(0, 92, 0);
+}
+
+.sec-img {
+  margin-top: 120px;
+  margin-left: 15%;
+  width: 70%;
+  height: 600px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .headmain {
+      font-size: 36px;
+      margin-top: 100px;
+      margin-left: 5%;
+  }
+
+  .hrP {
+      width: 90%;
+      margin-left: 5%;
+      border-bottom: 4px solid rgb(19, 255, 19);
+  }
+
+  .sec-img {
+      margin-top: 40px;
+      margin-left: 5%;
+      width: 90%;
+      height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .headmain {
+      font-size: 28px;
+      margin-top: 100px;
+      margin-left: 3%;
+  }
+
+  .hrP {
+      width: 94%;
+      margin-left: 3%;
+      border-bottom: 3px solid rgb(19, 255, 19);
+  }
+
+  .sec-img {
+      margin-top: 30px;
+      margin-left: 3%;
+      width: 94%;
+      height: auto;
+  }
+}
+.heaDmain {
+  font-size: 52px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  margin-left: 8.5%;
+  margin-top: 200px;
+  color: rgb(29, 119, 29);
+}
+
+.hrE {
+  width: 83%;
+  margin-left: 8.5%;
+  border-bottom: 6px solid rgb(19, 255, 19);
+  border-color: rgb(0, 92, 0);
+}
+
+#cardMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.cardOne, .cardTwo {
+  width: 40%;
+  height: 500px;
+  background-color: rgb(218, 218, 218); /* Default for cardOne */
+}
+
+.cardTwo {
+  background-color: rgb(56, 206, 56); /* Specific to cardTwo */
+}
+
+.cardImg {
+  margin: 50px 200px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+.cardPara {
+  color: rgb(0, 0, 0);
+  margin-left: 20%;
+  font-size: 32px;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .heaDmain {
+      font-size: 40px;
+      margin-left: 5%;
+      margin-top: 100px;
+  }
+
+  .hrE {
+      width: 90%;
+      margin-left: 5%;
+      border-bottom: 4px solid rgb(197, 216, 197);
+  }
+
+  #cardMain {
+      flex-direction: column;
+      margin-top: 80px;
+  }
+
+  .cardOne, .cardTwo {
+      width: 80%;
+      height: auto;
+      margin-bottom: 0px;
+  }
+
+  .cardImg {
+      margin: 40px 130px;
+      width: 100px;
+      height: 100px;
+  }
+
+  .cardPara {
+      margin-left: 3%;
+      font-size: 24px;
+      text-align: center;
+      color: rgb(37, 71, 34);
+  }
+}
+
+@media (max-width: 480px) {
+  .heaDmain {
+      font-size: 32px;
+      margin-left: 3%;
+      margin-top: 80px;
+  }
+
+  .hrE {
+      width: 94%;
+      margin-left: 3%;
+      border-bottom: 3px solid rgb(19, 255, 19);
+  }
+
+  .cardOne, .cardTwo {
+      width: 90%;
+      height: auto;
+  }
+
+  .cardImg {
+      margin: 15px auto;
+      width: 80px;
+      height: 80px;
+     text-align: center;
+  }
+}
+.SectionFive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.cardThree, .cardFour {
+  width: 28%;
+  height: 370px;
+  background-color: rgb(14, 117, 14); /* Default for cardThree */
+}
+
+.cardFour {
+  background-color: rgb(56, 206, 56); /* Specific to cardFour */
+}
+
+.cardImgone {
+  margin: 65px 125px;
+  width: 150px;
+  height: 150px;
+}
+
+h2, h3 {
+  color: white;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: -35px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .SectionFive {
+      flex-direction: column;
+      margin-top: 50px;
+  }
+
+  .cardThree, .cardFour {
+      width: 80%;
+      height: 290px;
+      margin-bottom: 0px;
+  }
+
+  .cardImgone {
+      margin: 50px 130px;
+      width: 120px;
+      height: 120px;
+  }
+
+  h2, h3 {
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardThree, .cardFour {
+      width: 90%;
+  }
+
+  .cardImgone {
+      margin: 15px auto;
+      width: 100px;
+      height: 100px;
+  }
+
+  h2, h3 {
+      font-size: 20px;
+  }
+}
+
+.text {
+  text-align: center;
+  color: rgb(0, 179, 0);
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#groupImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+#grouptwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .text {
+      font-size: 18px;
+  }
+
+  #groupImg, #grouptwo {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  img {
+      width: 150px;
+      height: 150px;
+      margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+      font-size: 18px;
+  }
+
+  img {
+      width: 120px;
+      height: 120px;
+      margin-top: 30px;
+  }
+
+  #groupImg, #grouptwo {
+      gap: 20px;
+  }
+}
+
+#greenfooter {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(65, 209, 65);
+}
+#centerback {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+#imgfooter {
+  margin-top: 200px;
+  width: 160px;
+  height: 160px;
+}
+.h1footer{
+  color: white;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 54px;
+  text-align: center;
+  margin-top: 40px;
+ }
